@@ -1,0 +1,21 @@
+---
+import {Astronav, MenuItems, MenuIcon} from "astro-navbar"
+---
+
+<header  class="tablet:flex p-5 gap-5" >
+    <Astronav>
+
+        <div class="flex justify-between w-full tablet:hidden">
+            <a href="" class="">RS</a>
+            <div class="block tablet:hidden"><MenuIcon class="w-4 h-4" /></div>
+         
+        </div>
+       <MenuItems class=" hidden tablet:flex tablet:w-full tablet:justify-around">
+        <ul class="flex flex-col tablet:flex-row  tablet:gap-[145px]">
+            <li><a href="">Technologies</a></li>
+            <li><a href="">Projets</a></li>
+            <li><a href="">About</a></li>
+        </ul>
+       </MenuItems> 
+    </Astronav>
+</header>
