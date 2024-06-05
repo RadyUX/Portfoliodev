@@ -7,18 +7,18 @@ const name = "Rafaelé"
 ---
 
 <Layout title="Rafaele Sinaguglia" seoTitle="Rafaele Sinaguglia, Web Developer Full Stack Portfolio" seoDesc="Developpeur Full Stack à Maubeuge">
-	<main class="mt-[78px]  h-100" id="landing">
+	<main class="mt-[78px]  h-100 desktop:mt-[208px]" id="landing">
 		<div class="w-100 flex flex-col ">
-				<h1 class="text-[28px] tablet:text-[42px]  font-spartan text-clear-blue">Yo 🦈, I'm Rafaelé</h1>
-				<h2 class="text-[18px] tablet:text-[22px] font-varela">Je suis un jeune développeur Full Stack passionné, fort de plusieurs années d'autoformation. Actuellement en formation pour valider officiellement mes compétences de développeur, également webdesigner</h2>
+				<h1 class="text-[28px] tablet:text-[42px] desktop:text-[64px] font-spartan text-clear-blue">Yo 🦈, I'm Rafaelé</h1>
+				<h2 class="text-[18px] tablet:text-[22px] desktop:text-[32px] desktop:w-[900px] font-varela">Je suis un jeune développeur Full Stack passionné, fort de plusieurs années d'autoformation. Actuellement en formation pour valider officiellement mes compétences de développeur, également webdesigner</h2>
 		</div>
 
 
        <div class="flex justify-end mt-[50px] relative ">
-			<div class="relative m-5 z-10 w-[150px] tablet:w-[220px] border-4 border-clear-blue bg-gradient-to-r from-clear-blue to-regular-blue rounded-full ">
-				<img  class=" w-[150px] tablet:w-[220px] tablet:h-[220px] rounded-full object-cover z-20" src="../../public/img/photo.webp" alt="">
-				<div class="absolute right-20 tablet:right-36 tablet:top-36 top-20 z-0 ">	
-					<div class="z-0 w-[125px] h-[125px] tablet:h-[145px] tablet:w-[145px]  bg-gradient-to-r from-[#6CCFF6] to-[#3D5A80] rounded-full"></div>
+			<div class="relative m-5 z-10 w-[150px] tablet:w-[220px] desktop:w-[410px] border-4 border-clear-blue bg-gradient-to-r from-clear-blue to-regular-blue rounded-full ">
+				<img  class=" w-[150px] tablet:w-[220px] tablet:h-[220px] desktop:h-[410px] desktop:w-[410px] rounded-full object-cover z-20" src="../../public/img/photo.webp" alt="">
+				<div class="absolute right-20 tablet:right-36 tablet:top-36 desktop:right-80 desktop:top-80 top-20 z-0 ">	
+					<div class="z-0 w-[125px] h-[125px] tablet:h-[145px] tablet:w-[145px]  desktop:w-[365px] desktop:h-[365px] bg-gradient-to-r from-[#6CCFF6] to-[#3D5A80] rounded-full"></div>
 				</div>
 			</div>
 		</div>
@@ -29,7 +29,7 @@ const name = "Rafaelé"
 	</main>
 	<section class="mt-[78px]"id="technologies">
 		<h1 class="text-[28px] font-League font-spartan ">Technologies</h1>
-		<div class="mt-[78px] grid grid-cols-2 tablet:grid-cols-3 gap-[106px] justify-items-center items-center ">
+		<div class="mt-[78px] grid grid-cols-2 desktop:grid-cols-5 tablet:grid-cols-3 gap-[106px] justify-items-center items-center ">
 			<Techno icon="../../public/img/css.png" iconDesc="css logo" title="CSS" rank="Avancé"/>
 			<Techno icon="../../public/img/html.png" iconDesc="html logo" title="HTML" rank="Avancé"/>
 			<Techno icon="../../public/img/javascript.png" iconDesc="javascript logo" title="Javascript" rank="Avancé"/>
@@ -55,7 +55,7 @@ const name = "Rafaelé"
 
 	<section class="mt-[78px]" id="projets">
 		<h1 class="text-[28px]   tablet:text-[60px] font-League font-spartan mb-[78px]  ">Projets</h1>
-	<div class="grid grid-cols-1  justify-items-center items-center">
+	<div class="grid grid-cols-1 desktop:grid-cols-2  justify-items-center items-center">
 			<Card image="../../public/img/pic.avif" title="portfolio" desc="mon portfolio en ligne" url="/" github="/" />
 			<Card image="../../public/img/pic.avif" title="portfolio" desc="mon portfolio en ligne" url="/" github="/" />
 			<Card image="../../public/img/pic.avif" title="portfolio" desc="mon portfolio en ligne" url="/" github="/" />
