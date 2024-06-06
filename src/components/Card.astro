@@ -13,9 +13,9 @@ const { image, imgDesc, title, desc, url, github } = Astro.props;
 		<p class="text-[18px] tablet:text-[22px] font-valera text-center">{desc}</p>
 	</div>
 
-	<div class="flex justify-around items-center mt-[95px] tablet:mt-[40px] gap-5">
-		<button class="h-[27px] w-[96px] tablet:h-[50px] tablet:w-[160px] bg-gradient-to-r from-clear-blue to-regular-blue p-3 rounded-[60px]"><a href={url} class="text-center text-[16px] font-valera mb-[78px]">Live</a></button>
-		<button class="h-[27px] w-[96px] tablet:h-[50px] tablet:w-[160px] bg-gradient-to-r from-clear-blue to-regular-blue p-3 rounded-[60px]" ><a href={github} class="text-[16px] font-valera ">Github</a></button>
+	<div class="flex justify-center items-center mt-[95px] tablet:mt-[40px] gap-5">
+	<a href={url} class="flex justify-center h-[27px] w-[96px] tablet:h-[50px] tablet:w-[160px] bg-gradient-to-r from-clear-blue to-regular-blue p-3 rounded-[60px] text-center text-[16px] font-valera mb-[78px]">Live</a>
+	<a href={github} class=" flex justify-center h-[27px] w-[96px] tablet:h-[50px] tablet:w-[160px] bg-gradient-to-r from-clear-blue to-regular-blue p-3 rounded-[60px] text-[16px] font-valera mb-[78px]">Github</a>
 	</div>
 </div>
 

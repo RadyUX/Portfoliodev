@@ -2,6 +2,7 @@
 import {SEO} from "astro-seo"
 import Navbar from "../components/Navbar.astro";
 const { title, seoTitle, seoDesc } = Astro.props;
+
 ---
 
 <!doctype html>
@@ -28,5 +29,14 @@ const { title, seoTitle, seoDesc } = Astro.props;
 				font-family: "League Spartan","Varela Round", sans-serif;
 			}
 		</style>
+		*
+
+		<script>
+			import Typed from 'typed.js';
+			var typed = new Typed('#element', {
+			  strings: ['jeune développeur Full Stack et webdesigner, création de site web sur mesure avec passion'],
+			  typeSpeed: 20,
+			});
+		  </script>
 	</body>
 </html>

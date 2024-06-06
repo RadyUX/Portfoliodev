@@ -8,11 +8,11 @@ const { icon, iconDesc, title, rank } = Astro.props;
 
 <div class="techno w-[80px] tablet:w-[100px] flex flex-col items-center justify-center">
 	<img src={icon} alt={iconDesc} class="w-[79px] tablet:w-[100px]">
-		<h2 class="text-[16px] tablet:text-[28px] font-bold text-center">
+		<h2 class="text-[16px] tablet:text-[28px]   desktop:text-[28px]  font-bold text-center">
 			{title}
 
 		</h2>
-		<p class="font-valera text-[16px] tablet:text-[22px] text-center">
+		<p class="font-valera text-[16px] tablet:text-[22px]  desktop:text-[26px] text-center">
 			{rank}
 		</p>
 </div>	
